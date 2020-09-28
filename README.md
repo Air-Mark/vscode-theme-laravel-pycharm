@@ -5,7 +5,7 @@ Code highlighting theme for Visual Studio Code and for PyCharm.
 
 ### 1. Theme for Visual Studio Code:
 
-Fork of documentation inspired [Laravel theme](https://github.com/victorze/vscode-theme-laravel) patched to look more like PyCharm theme. Differences from [original Laravel](https://marketplace.visualstudio.com/items?itemName=victorzevallos.vscode-theme-laravel):
+[Laravel PyCharm Theme](https://marketplace.visualstudio.com/items?itemName=kiwi0fruit.vscode-theme-laravel-pycharm) is a fork of documentation inspired [Laravel theme](https://github.com/victorze/vscode-theme-laravel) patched to look more like PyCharm theme. Differences from [original Laravel](https://marketplace.visualstudio.com/items?itemName=victorzevallos.vscode-theme-laravel):
 
 * main colors were tweaked a bit,
 * functions names are bold now,
