@@ -1,9 +1,9 @@
 {
-    "name": "vscode-theme-laravel",
-    "displayName": "Laravel Theme",
-    "description": "Documentation inspired theme",
-    "version": "2.3.10",
-    "publisher": "victorzevallos",
+    "name": "vscode-theme-laravel-pycharm",
+    "displayName": "Laravel PyCharm Theme",
+    "description": "Documentation inspired Laravel theme patched to look more like PyCharm theme.",
+    "version": "2.4.1",
+    "publisher": "kiwi0fruit",
     "icon": "logo.png",
     "engines": {
         "vscode": "^1.17.0"
@@ -14,38 +14,18 @@
     "contributes": {
         "themes": [
             {
-                "label": "Laravel Theme",
+                "label": "Laravel PyCharm Theme",
                 "uiTheme": "vs",
                 "path": "./themes/laravel.json"
-            },
-            {
-                "label": "Laravel Extra - JetBrains",
-                "uiTheme": "vs",
-                "path": "./themes/jetbrains.json"
-            },
-            {
-                "label": "Laravel Extra - Github Clasic",
-                "uiTheme": "vs",
-                "path": "./themes/github_clasic.json"
-            },
-            {
-                "label": "Laravel Extra - Github",
-                "uiTheme": "vs",
-                "path": "./themes/github.json"
             }
         ]
     },
-    "homepage": "https://github.com/victorze/vscode-theme-laravel/blob/master/README.md",
+    "homepage": "https://github.com/kiwi0fruit/vscode-theme-laravel-pycharm/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/victorze/vscode-theme-laravel"
+        "url": "https://github.com/kiwi0fruit/vscode-theme-laravel-pycharm"
     },
     "bugs": {
-        "url": "https://github.com/victorze/vscode-theme-laravel/issues"
-    },
-    "__metadata": {
-        "id": "f5ca8727-8286-4683-ae8a-5797d2477699",
-        "publisherDisplayName": "Victor",
-        "publisherId": "d34d94bf-c874-45d8-9316-a6fb0da7ae40"
+        "url": "https://github.com/kiwi0fruit/vscode-theme-laravel-pycharm/issues"
     }
 }

@@ -25,15 +25,10 @@
 				"comment",
 				"punctuation.definition.comment",
 				"comment.block.preprocessor",
-				"comment.documentation",
-				"comment.block.documentation",
-				"comment.block.documentation support.class",
-				"comment.block.documentation keyword.other.type",
-				"keyword.other.phpdoc.php",
-				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
-				"foreground": "#808080"
+				"foreground": "#A0A0A0",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -79,6 +74,14 @@
 			}
 		},
 		{
+			"name": "Class2",
+			"scope": "entity.name.type.class",
+			"settings": {
+				"foreground": "#000",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "type",
 			"scope": [
 				"entity.name.exception",
@@ -95,7 +98,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#2E7D32"
+				"foreground": "#2B915B"
 			}
 		},
 		{
@@ -107,7 +110,7 @@
 				"constant.language"
 			],
 			"settings": {
-				"foreground": "#DA564A"
+				"foreground": "#D86149"
 			}
 		},
 		{
@@ -118,7 +121,7 @@
 				"support.constant.math",
 			],
 			"settings": {
-				"foreground": "#DA564A"
+				"foreground": "#D86149"
 			}
 		},
 		{
@@ -145,12 +148,23 @@
 			}
 		},
 		{
+			"name": "Function name definition",
+			"scope": [
+				"meta.function entity.name.function",
+				"meta.definition.method entity.name.function"
+			],
+			"settings": {
+				"foreground": "#000",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "method magic",
 			"scope": [
 				"support.function.magic"
 			],
 			"settings": {
-				"foreground": "#DA564A"
+				"foreground": "#D86149"
 			}
 		},
 		{
@@ -176,7 +190,7 @@
 				"keyword.operator.quantifier.regexp"
 			],
 			"settings": {
-				"foreground": "#4DA0DD"
+				"foreground": "#4A9CD6"
 			}
 		},
 
@@ -186,7 +200,7 @@
 				"variable.language.this"
 			],
 			"settings": {
-				"foreground": "#4DA0DD"
+				"foreground": "#4A9CD6"
 			}
 		},
 		{
@@ -196,7 +210,8 @@
 				"variable.language.special.self.python"
 			],
 			"settings": {
-				"foreground": "#4DA0DD"
+				"foreground": "#4A9CD6",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -206,17 +221,25 @@
                 "entity.name.function.decorator"
 			],
 			"settings": {
-				"foreground": "#2E7D32"
+				"foreground": "#2B915B"
 			}
 		},
 		{
 			"name": "decorator python",
 			"scope": [
 				"variable.parameter.function-call",
-				"constant"
 			],
 			"settings": {
-				"foreground": "#4DA0DD"
+				"foreground": "#4A9CD6"
+			}
+		},
+		{
+			"name": "constant python",
+			"scope": [
+				"constant",
+			],
+			"settings": {
+				"foreground": "#B2503C"
 			}
 		},
 		{
@@ -284,7 +307,7 @@
 				"string.quoted.double.html"
 			],
 			"settings": {
-				"foreground": "#2E7D32"
+				"foreground": "#2B915B"
 			}
 		},
 		{
@@ -320,7 +343,7 @@
 				"punctuation.definition.entity.css"
 			],
 			"settings": {
-				"foreground": "#DA564A"
+				"foreground": "#D86149"
 			}
 		},
 		{
@@ -330,7 +353,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#2E7D32"
+				"foreground": "#2B915B"
 			}
 		},
 		{
@@ -353,7 +376,7 @@
 				"source.css keyword.control"
 			],
 			"settings": {
-				"foreground": "#DA564A"
+				"foreground": "#D86149"
 			}
 		},
 
@@ -386,7 +409,7 @@
 				"keyword.control.twig"
 			],
 			"settings": {
-				"foreground": "#DA564A"
+				"foreground": "#D86149"
 			}
 		},
 
@@ -409,7 +432,7 @@
 				"keyword.blade"
 			],
 			"settings": {
-				"foreground": "#DA564A"
+				"foreground": "#D86149"
 			}
 		},
 		{
@@ -458,7 +481,7 @@
 				"string.quoted.single.xml"
 			],
 			"settings": {
-				"foreground": "#2E7D32"
+				"foreground": "#2B915B"
 			}
 		}
 	]
