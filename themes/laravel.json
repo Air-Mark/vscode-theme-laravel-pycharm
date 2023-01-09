@@ -95,7 +95,8 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#2B915B"
+				"foreground": "#008001",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -211,7 +212,7 @@
 				"entity.name.function.decorator"
 			],
 			"settings": {
-				"foreground": "#2B915B"
+				"foreground": "#818102"
 			}
 		},
 		{
@@ -293,7 +294,8 @@
 				"string.quoted.double.html"
 			],
 			"settings": {
-				"foreground": "#2B915B"
+				"foreground": "#008001",
+				"fontStyle": "bold",
 			}
 		},
 		{
@@ -435,7 +437,8 @@
 				"string.quoted.double.json"
 			],
 			"settings": {
-				"foreground": "#008200"
+				"foreground": "#008001",
+				"fontStyle": "bold"
 			}
 		},
 		// XML
