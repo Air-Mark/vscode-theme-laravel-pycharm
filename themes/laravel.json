@@ -7,7 +7,6 @@
 		"editor.foreground": "#000000",
 		"editorLineNumber.foreground": "#ccc",
 		"editor.lineHighlightBackground": "#ecebeb",
-
 		"statusBar.foreground": "#24292e",
 		"statusBar.background": "#ffffff",
 		"statusBar.border": "#ffffff",
@@ -15,7 +14,6 @@
 		"statusBar.noFolderBackground": "#fafbfc",
 		"statusBar.debuggingForeground": "#24292e",
 		"statusBar.debuggingBackground": "#fafbfc",
-
 		"sideBar.foreground": "#000"
 	},
 	"tokenColors": [
@@ -69,7 +67,7 @@
 				"keyword.operator.new"
 			],
 			"settings": {
-				"foreground": "#07a",
+				"foreground": "#000086",
 				"fontStyle": "bold"
 			}
 		},
@@ -78,7 +76,6 @@
 			"scope": "entity.name.type.class",
 			"settings": {
 				"foreground": "#000",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -89,7 +86,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#07a"
+				"foreground": "#000086"
 			}
 		},
 		{
@@ -129,8 +126,8 @@
 			"scope": [
 				"variable",
 				"support.variable",
-                "entity.name.type.namespace.php",
-                "entity.name.type.class"
+				"entity.name.type.namespace.php",
+				"entity.name.type.class"
 			],
 			"settings": {
 				"foreground": "#000"
@@ -155,7 +152,6 @@
 			],
 			"settings": {
 				"foreground": "#000",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -164,7 +160,7 @@
 				"support.function.magic"
 			],
 			"settings": {
-				"foreground": "#D86149"
+				"foreground": "#c300b8"
 			}
 		},
 		{
@@ -174,14 +170,9 @@
 				"support.variable.property"
 			],
 			"settings": {
-                "foreground": "#07a"
+				"foreground": "#07a"
 			}
 		},
-
-
-
-
-
 		{
 			"name": "Strings: Regular Expressions",
 			"scope": [
@@ -190,17 +181,16 @@
 				"keyword.operator.quantifier.regexp"
 			],
 			"settings": {
-				"foreground": "#4A9CD6"
+				"foreground": "#d64abc"
 			}
 		},
-
 		{
 			"name": "this",
 			"scope": [
 				"variable.language.this"
 			],
 			"settings": {
-				"foreground": "#4A9CD6"
+				"foreground": "#9f5391"
 			}
 		},
 		{
@@ -210,7 +200,7 @@
 				"variable.language.special.self.python"
 			],
 			"settings": {
-				"foreground": "#4A9CD6",
+				"foreground": "#9f5391",
 				"fontStyle": "italic"
 			}
 		},
@@ -218,7 +208,7 @@
 			"name": "decorator python",
 			"scope": [
 				"meta.function.decorator support.type",
-                "entity.name.function.decorator"
+				"entity.name.function.decorator"
 			],
 			"settings": {
 				"foreground": "#2B915B"
@@ -230,7 +220,7 @@
 				"variable.parameter.function-call",
 			],
 			"settings": {
-				"foreground": "#4A9CD6"
+				"foreground": "#7700a3"
 			}
 		},
 		{
@@ -252,10 +242,6 @@
 				"foreground": "#07a"
 			}
 		},
-
-
-
-
 		// html
 		{
 			"name": "Doctype Declaration",
@@ -319,11 +305,6 @@
 				"foreground": "#000"
 			}
 		},
-
-
-
-
-
 		// css
 		{
 			"name": "Selectors tag",
@@ -379,10 +360,6 @@
 				"foreground": "#D86149"
 			}
 		},
-
-
-
-
 		// Django and Twig templates
 		{
 			"name": "Django and twig templates {%   %}      {{  }}",
@@ -412,10 +389,6 @@
 				"foreground": "#D86149"
 			}
 		},
-
-
-
-
 		// Laravel - Blade
 		{
 			"name": "blade {{  }}",
@@ -445,10 +418,6 @@
 				"foreground": "#000"
 			}
 		},
-
-
-
-
 		// json
 		{
 			"name": "key json",
@@ -456,7 +425,8 @@
 				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#07a"
+				"foreground": "#70007f",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -465,14 +435,9 @@
 				"string.quoted.double.json"
 			],
 			"settings": {
-				"foreground": "#333"
+				"foreground": "#008200"
 			}
 		},
-
-
-
-
-
 		// XML
 		{
 			"name": "Value attribute XML",
